@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './index.css';
-import App from './App';
+import Main from './pages/main';
 import reportWebVitals from './reportWebVitals';
+import GlobalStyle from './styles/common-styles';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
-      <Route path='/' component={App} />
-    </Router>
+    <GlobalStyle />
+      <Router basename={process.env.PUBLIC_URL}>
+        <Route path='/' component={Main} />
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
