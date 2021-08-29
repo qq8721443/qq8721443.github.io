@@ -1,4 +1,4 @@
-# GITHUB.IO BLOG
+# Jeongki Blog
 ## Router
 - Main
 - Post List
