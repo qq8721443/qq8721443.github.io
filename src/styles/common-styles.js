@@ -20,6 +20,11 @@ const Container = styled.div`
         width: 100%;
         padding: 0 50px;
     }
+
+    @media only screen and (max-width: 384px) {
+        padding: 0px;
+        margin-top: 10px;
+    }
 `
 
 const Post = styled.div`
